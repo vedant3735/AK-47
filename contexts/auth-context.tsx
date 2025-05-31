@@ -19,8 +19,8 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined)
 
 // Hardcoded users with roles as specified
 const USERS = {
-  vrinda: { password: "violet", hint: "my favourite color", role: "submitter" as UserRole },
-  anirvesh: { password: "kaleshiaurat", hint: "", role: "viewer" as UserRole },
+  chinnu: { password: "MCD", hint: "my favourite place to eat", role: "submitter" as UserRole },
+  vedant: { password: "na bangaram", hint: "", role: "viewer" as UserRole },
 }
 
 export function AuthProvider({ children }: { children: ReactNode }) {
